@@ -1,7 +1,7 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=PCB_Project_IGNIS_v2.PrjPcb
+ProjectPath=Components\Transistor NPN - S9018\Project Outputs for S9018\S9018\Transistor_NPN-S9018.LibPkg
 [Project2]
 ProjectPath=Components\2 Terminal Block 5.08mm Pitch\282837-2\Terminal_Block_282837-2.LibPkg
 [Project3]
@@ -25,6 +25,8 @@ ProjectPath=Components\SD Holder - MSD-11-A\SD_Holder-MSD-11-A.LibPkg
 [Project12]
 ProjectPath=Components\SMA port - BWSMA-KE-Z001\BWSMA-KE-Z001\SMA_Port-BWSMA-KE-Z001.LibPkg
 [Project13]
-ProjectPath=Components\Transistor NPN - S9018\Project Outputs for S9018\S9018\Transistor_NPN-S9018.LibPkg
-[Project14]
 ProjectPath=Components\Voltage regulator - AMS1117\AMS1117_3v3\AMS1117-3v3\AMS1117-5.LibPkg
+[Project14]
+ProjectPath=Components\USB-C Port - USB-C_918-418K2024F40202\Greeenga\2345986-1\USB_C-918-418K2024F40202.LibPkg
+[Project15]
+ProjectPath=PCB_Project_IGNIS_v2.PrjPcb
