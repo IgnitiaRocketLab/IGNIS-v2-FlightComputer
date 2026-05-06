@@ -37,6 +37,8 @@ No commercial flight computer. No shortcuts.
 ---
 
 ## Project Structure
+
+```
 IGNIS-v2-FlightComputer/
 ├── Schematics/
 │   ├── Main.SchDoc
@@ -52,19 +54,18 @@ IGNIS-v2-FlightComputer/
 │   └── IGNIS_v2.PcbDoc
 ├── Libraries/
 └── Fabrication/
+```
 
 ---
 
 ## Design & Development
 
-**Lead Designer & Author** — [Emilio Guadarrama Gutiérrez](https://github.com/Emilio-Guadarrama)
+**Lead Designer & Author** — [Emilio Guadarrama Gutiérrez](https://github.com/Emilio-Guadarrama)  
 Vice President, Ignitia Rocket Lab · Avionics & Electronics Lead
 
-**Pyro Circuit** — Aristoteles Prieto
-**Team President** — Maximiliano Funoy Serrano
+**Pyro Circuit** — Aristoteles Prieto  
+**Team President** — Maximiliano Funoy Serrano  
 **Faculty Advisor** — Dr. José Luis Henríquez Mercado
-
----
 
 ## Team
 
