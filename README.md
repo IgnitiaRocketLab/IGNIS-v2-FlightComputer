@@ -60,7 +60,7 @@ IGNIS-v2-FlightComputer/
 
 ## Design & Development
 
-**Lead Designer & Author** — [Emilio Guadarrama Gutiérrez](https://github.com/Emilio-Guadarrama)  
+**Lead Designer & Author** — [Emilio Guadarrama](https://github.com/Emilio-Guadarrama)  
 Vice President, Ignitia Rocket Lab · Avionics & Electronics Lead
 
 **Pyro Circuit** — Aristoteles Prieto  
