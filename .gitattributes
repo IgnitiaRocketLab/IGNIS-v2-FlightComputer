@@ -1,0 +1,9 @@
+# Treat Altium files as binary
+*.SchDoc binary
+*.PcbDoc binary
+*.LibPkg binary
+*.PcbLib binary
+*.SchLib binary
+*.IntLib binary
+*.DsnWrk binary
+*.PrjPcb binary
