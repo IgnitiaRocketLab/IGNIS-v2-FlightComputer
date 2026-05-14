@@ -30,3 +30,5 @@ ProjectPath=PCB_Project_IGNIS_v2.PrjPcb
 ProjectPath=Components\Optoisolator - MOC3023S\PC817X2NIP1B\Optoisolator-PC817X2NIP1B.LibPkg
 [Project15]
 ProjectPath=Components\USB-C Port 2\USB_C-918-418K2024F40202\USB_C-918-418K2023C40004.LibPkg
+[Project16]
+ProjectPath=Components\Button\SKRPABE010\Button-SKRPABE010.LibPkg
