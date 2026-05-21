@@ -1,7 +1,7 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=Components\Pressure Sensor - BMP180\PRESSURE-BMP180_LGA7_\PRESSURE-BMP180_LGA7_.LibPkg
+ProjectPath=Components\Pressure Sensor - BMP180\PRESSURE-BMP180_LGA7_\BMP180.LibPkg
 [Project2]
 ProjectPath=Components\SD Holder - MSD-11-A\SD_Holder-MSD-11-A.LibPkg
 [Project3]
