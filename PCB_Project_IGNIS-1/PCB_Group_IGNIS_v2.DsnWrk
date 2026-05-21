@@ -40,3 +40,5 @@ ProjectPath=PCB_Project_IGNIS_v2.PrjPcb
 ProjectPath=Components\Terminal Screw 5.08mm 16AWG (6 pin)\1729160\Terminal Screw 5.08mm (6 pin).LibPkg
 [Project20]
 ProjectPath=Components\GPS - Ultimate GPS Breakout 66 channel Adafruit\GPS\GPS.LibPkg
+[Project21]
+ProjectPath=Components\Humidity and Temperature - SHT40-AD1B-R3\HumTemp-SHT40-AD1B-R31\HumTemp-SHT40-AD1B-R3.LibPkg
