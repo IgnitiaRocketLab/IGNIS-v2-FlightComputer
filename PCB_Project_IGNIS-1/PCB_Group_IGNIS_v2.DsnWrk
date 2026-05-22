@@ -9,9 +9,9 @@ ProjectPath=Components\Antenna module - RFM95W\Antenna-RFM95W-868S2\Antenna-RFM9
 [Project4]
 ProjectPath=Components\Pressure Sensor - BMP180\PRESSURE-BMP180_LGA7_\BMP180.LibPkg
 [Project5]
-ProjectPath=Components\Buzzer - CMI-1210-92T\CMI-1275C-050\BUZZER_CMI-1275C-050.LibPkg
-[Project6]
 ProjectPath=Components\Button\SKRPABE010\Button-SKRPABE010.LibPkg
+[Project6]
+ProjectPath=Components\Buzzer - CMI-1210-92T\CMI-1275C-050\BUZZER_CMI-1275C-050.LibPkg
 [Project7]
 ProjectPath=Components\MCU - ESP32\ESP32-S3-WROOM-1-N16R2\ESP32-S3-WROOM-1-N16R2.LibPkg
 [Project8]
@@ -23,24 +23,24 @@ ProjectPath=Components\Humidity and Temperature - SHT40-AD1B-R3\HumTemp-SHT40-AD
 [Project11]
 ProjectPath=Components\IMU - GY-521\IMU-GY-521\IMU_GY-521.LibPkg
 [Project12]
-ProjectPath=Components\LED RGB - WS2812B\Imported (1) WS2812B.lia\LED_RGB_WS2812B.LibPkg
-[Project13]
 ProjectPath=Components\LED SMD 0805\SML-LXT0805IW-TR\LED_0805-SML-LXT0805IW-TR.LibPkg
+[Project13]
+ProjectPath=Components\LED RGB - WS2812B\Imported (1) WS2812B.lia\LED_RGB_WS2812B.LibPkg
 [Project14]
-ProjectPath=Components\2 Terminal Block 5.08mm Pitch\282837-2\Terminal_Block_282837-2.LibPkg
+ProjectPath=Components\NCE6005AR Mosfet N 60v 5A SMD\NCE6005AR_Mosfet_N.LibPkg
 [Project15]
-ProjectPath=Components\Terminal Screw 5.08mm 16AWG (6 pin)\1729160\Terminal Screw 5.08mm (6 pin).LibPkg
+ProjectPath=Components\NPN_S8050\NPN_8050.LibPkg
 [Project16]
 ProjectPath=Components\Optoisolator - MOC3023S\PC817X2NIP1B\Optoisolator-PC817X2NIP1B.LibPkg
 [Project17]
-ProjectPath=Components\USB-C Port 2\USB_C-918-418K2024F40202\USB_C-918-418K2023C40004.LibPkg
-[Project18]
 ProjectPath=Components\SD Holder - MSD-11-A\SD_Holder-MSD-11-A.LibPkg
-[Project19]
+[Project18]
 ProjectPath=Components\SMA port - BWSMA-KE-Z001\SMA\SMA.LibPkg
-[Project20]
+[Project19]
 ProjectPath=Components\SS8550 PNP Transistor\SS8550_PNP.LibPkg
+[Project20]
+ProjectPath=Components\2 Terminal Block 5.08mm Pitch\282837-2\Terminal_Block_282837-2.LibPkg
 [Project21]
-ProjectPath=Components\NPN_S8050\NPN_8050.LibPkg
+ProjectPath=Components\Terminal Screw 5.08mm 16AWG (6 pin)\1729160\Terminal Screw 5.08mm (6 pin).LibPkg
 [Project22]
-ProjectPath=Components\NCE6005AR Mosfet N 60v 5A SMD\NCE6005AR_Mosfet_N.LibPkg
+ProjectPath=Components\USB-C Port 2\USB_C-918-418K2024F40202\USB_C-918-418K2023C40004.LibPkg
