@@ -44,3 +44,5 @@ ProjectPath=Components\2 Terminal Block 5.08mm Pitch\282837-2\Terminal_Block_282
 ProjectPath=Components\Terminal Screw 5.08mm 16AWG (6 pin)\1729160\Terminal Screw 5.08mm (6 pin).LibPkg
 [Project22]
 ProjectPath=Components\USB-C Port 2\USB_C-918-418K2024F40202\USB_C-918-418K2023C40004.LibPkg
+[Project23]
+ProjectPath=Components\Diode 1N4148W\1N4148W\1N4148W.LibPkg
