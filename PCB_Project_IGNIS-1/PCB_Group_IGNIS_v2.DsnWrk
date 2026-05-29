@@ -25,7 +25,7 @@ ProjectPath=Components\IMU - GY-521\IMU-GY-521\IMU_GY-521.LibPkg
 [Project12]
 ProjectPath=Components\LED SMD 0805\SML-LXT0805IW-TR\LED_0805-SML-LXT0805IW-TR.LibPkg
 [Project13]
-ProjectPath=Components\LED RGB - WS2812B\Imported (1) WS2812B.lia\LED_RGB_WS2812B.LibPkg
+ProjectPath=Components\LED RGB - WS2812B\LED_RGB_WS2812B.LibPkg
 [Project14]
 ProjectPath=Components\NCE6005AR Mosfet N 60v 5A SMD\NCE6005AR_Mosfet_N.LibPkg
 [Project15]
@@ -45,4 +45,10 @@ ProjectPath=Components\Terminal Screw 5.08mm 16AWG (6 pin)\1729160\Terminal Scre
 [Project22]
 ProjectPath=Components\USB-C Port 2\USB_C-918-418K2024F40202\USB_C-918-418K2023C40004.LibPkg
 [Project23]
-ProjectPath=Components\Diode 1N4148W\1N4148W\1N4148W.LibPkg
+ProjectPath=..\..\..\..\Downloads\GY-521\GY-521_IMU_with_MountingHoles.LibPkg
+[Project24]
+ProjectPath=Components\1N4148W-7.LibPkg
+[Project25]
+ProjectPath=Components\MLT-8530\MLT-8530.LibPkg
+[Project26]
+ProjectPath=Components\MOSFET NTS4001NT1G\NTS4001NT1G.LibPkg
