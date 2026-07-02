@@ -56,3 +56,11 @@ ProjectPath=Components\MOSFET NTS4001NT1G\NTS4001NT1G.LibPkg
 ProjectPath=Components\MPU6050-A\MPU-6050-A.LibPkg
 [Project28]
 ProjectPath=Components\SAM-M10Q\SAM-M10Q-00B.LibPkg
+[Project29]
+ProjectPath=Components\BMP280\BMP280.LibPkg
+[Project30]
+ProjectPath=Components\XH-SMD\S4B-XH-SM4-TB\S4B-XH-SM4-TB.LibPkg
+[Project31]
+ProjectPath=Components\TTYPE-C-31-M-12\TYPE-C-31-M-12\TYPE-C-31-M-12.LibPkg
+[Project32]
+ProjectPath=Components\S4B_XH_SM4_TB JST_SH\SM04B-SRSS-TB.LibPkg
