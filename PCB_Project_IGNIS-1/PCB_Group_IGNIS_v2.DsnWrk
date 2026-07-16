@@ -45,22 +45,20 @@ ProjectPath=Components\Terminal Screw 5.08mm 16AWG (6 pin)\1729160\Terminal Scre
 [Project22]
 ProjectPath=Components\USB-C Port 2\USB_C-918-418K2024F40202\USB_C-918-418K2023C40004.LibPkg
 [Project23]
-ProjectPath=..\..\..\..\Downloads\GY-521\GY-521_IMU_with_MountingHoles.LibPkg
-[Project24]
 ProjectPath=Components\1N4148W-7.LibPkg
-[Project25]
+[Project24]
 ProjectPath=Components\MLT-8530\MLT-8530.LibPkg
-[Project26]
+[Project25]
 ProjectPath=Components\MOSFET NTS4001NT1G\NTS4001NT1G.LibPkg
-[Project27]
+[Project26]
 ProjectPath=Components\MPU6050-A\MPU-6050-A.LibPkg
-[Project28]
+[Project27]
 ProjectPath=Components\SAM-M10Q\SAM-M10Q-00B.LibPkg
-[Project29]
+[Project28]
 ProjectPath=Components\BMP280\BMP280.LibPkg
-[Project30]
+[Project29]
 ProjectPath=Components\XH-SMD\S4B-XH-SM4-TB\S4B-XH-SM4-TB.LibPkg
-[Project31]
+[Project30]
 ProjectPath=Components\TTYPE-C-31-M-12\TYPE-C-31-M-12\TYPE-C-31-M-12.LibPkg
-[Project32]
+[Project31]
 ProjectPath=Components\S4B_XH_SM4_TB JST_SH\SM04B-SRSS-TB.LibPkg
