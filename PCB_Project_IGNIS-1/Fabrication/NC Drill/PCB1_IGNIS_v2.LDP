@@ -1,4 +1,0 @@
-Layer Pairs Export File for PCB: C:\Users\javie\OneDrive\Escritorio\IGNIS-v2-FlightComputer\PCB_Project_IGNIS-1\PCB1_IGNIS_v2.PcbDoc
-LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=pcb1_ignis_v2-roundholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
-LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=pcb1_ignis_v2-slotholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
-LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=pcb1_ignis_v2-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,gbl
