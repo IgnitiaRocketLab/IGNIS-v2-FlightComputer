@@ -1,14 +1,20 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [PCB1_IGNIS_v2.PcbDoc]
-   Generated File[PCB1_IGNIS_v2-RoundHoles-Plated.TXT]
-   Generated File[PCB1_IGNIS_v2-RoundHoles-NonPlated.TXT]
-   Generated File[PCB1_IGNIS_v2-SlotHoles-Plated.TXT]
-   Generated File[PCB1_IGNIS_v2.LDP]
-   Generated File[PCB1_IGNIS_v2.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [PCB1_IGNIS_v2_2.PcbDoc]
+   Generated File[PCB1_IGNIS_v2_2.GTO]
+   Generated File[PCB1_IGNIS_v2_2.GTP]
+   Generated File[PCB1_IGNIS_v2_2.GTS]
+   Generated File[PCB1_IGNIS_v2_2.GTL]
+   Generated File[PCB1_IGNIS_v2_2.G1]
+   Generated File[PCB1_IGNIS_v2_2.G2]
+   Generated File[PCB1_IGNIS_v2_2.GBL]
+   Generated File[PCB1_IGNIS_v2_2.GBS]
+   Generated File[PCB1_IGNIS_v2_2.GBP]
+   Generated File[PCB1_IGNIS_v2_2.GBO]
+   Generated File[PCB1_IGNIS_v2_2.GM]
 
 
-Files Generated   : 5
+Files Generated   : 11
 Documents Printed : 0
 
-Finished Output Generation At 11:01:17 PM On 7/17/2026
+Finished Output Generation At 11:06:12 PM On 7/17/2026
