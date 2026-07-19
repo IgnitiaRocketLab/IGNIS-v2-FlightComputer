@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\javie\OneDrive\Escritorio\IGNIS-v2-FlightComputer\PCB_Project_IGNIS-1\PCB1_IGNIS_v4.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb1_ignis_v4-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcb1_ignis_v4-slotholes.txt|DrillLayers=gtl,g1,g2,gbl

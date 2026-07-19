@@ -50,6 +50,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=Main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -66,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ROJPQYEX
 
-[Document2]
+[Document3]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IJUPNKQD
 
-[Document3]
+[Document4]
 DocumentPath=RF_LoRa_&_GPS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZTWSXBAV
 
-[Document4]
+[Document5]
 DocumentPath=Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NAMWJVFW
 
-[Document5]
+[Document6]
 DocumentPath=Storage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDXXTYTK
 
-[Document6]
+[Document7]
 DocumentPath=Pyros.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EGYWEZOB
 
-[Document7]
+[Document8]
 DocumentPath=Indicators.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LUXTKQWL
 
-[Document8]
+[Document9]
 DocumentPath=PCB_Project_IGNIS_v4.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=PCB1_IGNIS_v4.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,15 +220,211 @@ GenerateClassCluster=0
 DocumentUniqueId=TEFPFVOV
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for PCB_Project_IGNIS_v2\Design Rule Check - PCB1_IGNIS_v2.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for PCB_Project_IGNIS_v4\Design Rule Check - PCB1_IGNIS_v4.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=..\..\Fabrication\Fabrication Output\NC Drill Files\PCB1_IGNIS_v4-RoundHoles.TXT
+DItemRevisionGUID=
+
 [GeneratedDocument3]
-DocumentPath=Project Outputs for PCB_Project_IGNIS_v2\PCB_Project_IGNIS_v2.xlsx
+DocumentPath=..\..\Fabrication\NC Drill\PCB1_IGNIS_v4-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Fabrication\NC Drill\PCB1_IGNIS_v4-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=..\..\Fabrication\Fabrication Output\NC Drill Files\PCB1_IGNIS_v4-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\..\Fabrication\NC Drill\PCB1_IGNIS_v4-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Fabrication\NC Drill\PCB1_IGNIS_v4-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=..\..\Fabrication\Fabrication Output\NC Drill Files\PCB1_IGNIS_v4.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=..\..\Fabrication\NC Drill\PCB1_IGNIS_v4.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Fabrication\NC Drill\PCB1_IGNIS_v4.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=..\..\Fabrication\Fabrication Output\NC Drill Files\PCB1_IGNIS_v4.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=..\..\Fabrication\NC Drill\PCB1_IGNIS_v4.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Fabrication\NC Drill\PCB1_IGNIS_v4.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=..\..\Fabrication\Fabrication Output\Gerber Files\PCB1_IGNIS_v4_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=..\..\Fabrication\Gerber\PCB1_IGNIS_v4_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Fabrication\Gerber\PCB1_IGNIS_v4_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Configuration1]

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB1_IGNIS_v4.PcbDoc]
+   Generated File[PCB1_IGNIS_v4-RoundHoles.TXT]
+   Generated File[PCB1_IGNIS_v4-SlotHoles.TXT]
+   Generated File[PCB1_IGNIS_v4.LDP]
+   Generated File[PCB1_IGNIS_v4.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 9:49:24 PM On 7/18/2026
