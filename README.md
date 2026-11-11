@@ -30,7 +30,6 @@ No commercial flight computer. No shortcuts.
 | RF Telemetry | RFM95W — 915 MHz LoRa |
 | Barometer | BMP180 |
 | IMU | MPU-6050 (6-DOF) |
-| Temp / Humidity | SHT40 |
 | GPS | Adafruit GPS Breakout |
 | Storage | MicroSD — SPI |
 | Power | Dual AMS1117 series · VBAT → 5V → 3.3V |
