@@ -5,6 +5,10 @@
 
 > *Designed to survive a rocket. Built by students who refused to buy one off the shelf.*
 
+<p align="center">
+  <img src="docs/images/ignis-v2-board.png" alt="IGNIS v2 flight computer, assembled" width="720">
+</p>
+
 ---
 
 ## What is this?
@@ -33,6 +37,39 @@ No commercial flight computer. No shortcuts.
 | Pyro | 2-channel MOSFET deployment |
 | PCB | 4-layer · Altium Designer · JLCPCB fab |
 | Target apogee | 1,000 m — LASC Rocket Challenge |
+
+---
+
+## Gallery
+
+### The board
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/pcb-3d-top.jpg" alt="IGNIS v2 3D render, top side"><br><sub><b>Top side</b> — 3D render from Altium Designer</sub></td>
+    <td width="50%"><img src="docs/images/pcb-bottom-assembled.jpg" alt="IGNIS v2 assembled board, bottom side"><br><sub><b>Bottom side</b> — assembled: pyro drivers, regulators and microSD</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/images/ignis-v2-assembled.jpg" alt="IGNIS v2 assembled with GPS, IMU and pyro terminals wired"><br><sub><b>Assembled</b> — GPS breakout, IMU and pyro terminal block with leads connected</sub></td>
+  </tr>
+</table>
+
+### 4-layer stackup
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/layer-top.jpg" alt="Top copper layer"><br><sub>Top layer</sub></td>
+    <td width="50%"><img src="docs/images/layer-gnd.jpg" alt="Ground plane layer"><br><sub>Ground layer</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/images/layer-pwr.jpg" alt="Power plane layer"><br><sub>Power layer</sub></td>
+    <td width="50%"><img src="docs/images/layer-bottom.jpg" alt="Bottom copper layer"><br><sub>Bottom layer</sub></td>
+  </tr>
+</table>
+
+### Schematic
+
+<img src="docs/images/schematic-main.jpg" alt="IGNIS v2 main schematic: hierarchical connections and ESP32-S3 microcontroller" width="100%">
 
 ---
 
