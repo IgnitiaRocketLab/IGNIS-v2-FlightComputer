@@ -22,6 +22,31 @@ No commercial flight computer. No shortcuts.
 
 ---
 
+## Flown at LASC 2026
+
+**IGNIS v2.2** is the revision that flew. It was the primary flight computer at the **Latin American Space Challenge 2026** in Brazil, where Ignitia Rocket Lab placed **9th of 25** in the Rocket Challenge, 1 km category.
+
+| Competition | Name | Location | Revision flown |
+|---|---|---|---|
+| **LASC 2026** | Latin American Space Challenge | Brazil | **IGNIS v2.2** |
+
+The board in the photos below is the v2 design; v2.2 is the corrected revision of it.
+
+---
+
+## What's New in v2.2
+
+v2.2 fixes the problems found while bringing up and testing the first assembled v2 boards:
+
+- **Barometer:** corrected the configuration of one of its interface pins on the I²C bus. Left floating, it made the barometer read ~497 hPa instead of ~830 hPa.
+- **RGB LEDs:** fixed the footprint of the addressable LEDs, which didn't match the real part.
+- **Recovery channels:** added hardware continuity LEDs to both channels for an immediate visual check on the board.
+- **Sensors:** removed the SHT40. Humidity wasn't useful for avionics, and temperature already comes from the barometer.
+
+The lessons from v2.2's bench tests and flight carried into later revisions; the latest is [IGNIS v5](https://github.com/Emilio-Guadarrama/IGNIS-v5-FlightComputer).
+
+---
+
 ## Hardware at a Glance
 
 | Block | Component |
@@ -69,6 +94,41 @@ No commercial flight computer. No shortcuts.
 ### Schematic
 
 <img src="docs/images/schematic-main.jpg" alt="IGNIS v2 main schematic: hierarchical connections and ESP32-S3 microcontroller" width="100%">
+
+---
+
+## System Architecture
+
+```mermaid
+flowchart TD
+    BAT[VBAT<br/>vehicle battery]
+
+    BAT --> LDO5[AMS1117-5.0<br/>VBAT to 5 V]
+    LDO5 --> RAIL5[5 V rail]
+    RAIL5 --> LDO33[AMS1117-3.3<br/>5 V to 3.3 V]
+    LDO33 --> RAIL33[3.3 V rail]
+
+    USB[USB-C] --> MCU[ESP32-S3-WROOM-1-N8R8<br/>8 MB Flash / 8 MB PSRAM]
+
+    RAIL33 --> IMU[MPU-6050 IMU]
+    RAIL33 --> BARO[BMP180 barometer]
+    RAIL33 --> GPS[Adafruit Ultimate GPS<br/>breakout]
+    RAIL33 --> LORA[RFM95W LoRa<br/>915 MHz]
+    RAIL33 --> SD[MicroSD<br/>SPI]
+
+    IMU --> MCU
+    BARO --> MCU
+    GPS --> MCU
+    MCU <--> LORA
+    MCU <--> SD
+    LORA --> ANT[SMA antenna]
+
+    MCU --> PYRO[2 × MOSFET<br/>pyro channels]
+    BAT --> PYRO
+    PYRO --> CONT[Continuity LEDs]
+
+    MCU --> IND[3 × WS2812B RGB<br/>piezo buzzer]
+```
 
 ---
 
