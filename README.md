@@ -24,26 +24,26 @@ No commercial flight computer. No shortcuts.
 
 ## Flown at LASC 2026
 
-**IGNIS v2.2** is the revision that flew. It was the primary flight computer at the **Latin American Space Challenge 2026** in Brazil, where Ignitia Rocket Lab placed **9th of 25** in the Rocket Challenge, 1 km category.
+IGNIS v2.2 is the revision that flew. It was the primary flight computer at the Latin American Space Challenge 2026 in Brazil, where Ignitia Rocket Lab placed 9th of 25 in the Rocket Challenge (1 km).
 
 | Competition | Name | Location | Revision flown |
 |---|---|---|---|
-| **LASC 2026** | Latin American Space Challenge | Brazil | **IGNIS v2.2** |
+| LASC 2026 | Latin American Space Challenge | Brazil | IGNIS v2.2 |
 
-The board in the photos below is the v2 design; v2.2 is the corrected revision of it.
+The photos below show the v2 board. v2.2 is the corrected version of it.
 
 ---
 
-## What's New in v2.2
+## What changed in v2.2
 
-v2.2 fixes the problems found while bringing up and testing the first assembled v2 boards:
+The first assembled v2 boards had problems on the bench. v2.2 fixes them:
 
-- **Barometer:** corrected the configuration of one of its interface pins on the I²C bus. Left floating, it made the barometer read ~497 hPa instead of ~830 hPa.
-- **RGB LEDs:** fixed the footprint of the addressable LEDs, which didn't match the real part.
-- **Recovery channels:** added hardware continuity LEDs to both channels for an immediate visual check on the board.
-- **Sensors:** removed the SHT40. Humidity wasn't useful for avionics, and temperature already comes from the barometer.
+- Barometer: one of its interface pins on the I²C bus was left floating, so it read about 497 hPa instead of about 830 hPa. It is now configured correctly.
+- RGB LEDs: the footprint didn't match the real part. Fixed.
+- Recovery channels: added a continuity LED to each one, so you can check them by eye on the board.
+- SHT40 removed. Humidity isn't useful for avionics, and the barometer already gives temperature.
 
-The lessons from v2.2's bench tests and flight carried into later revisions; the latest is [IGNIS v5](https://github.com/Emilio-Guadarrama/IGNIS-v5-FlightComputer).
+What we learned from v2.2's bench tests and flight went into the later revisions. The latest is [IGNIS v5](https://github.com/Emilio-Guadarrama/IGNIS-v5-FlightComputer).
 
 ---
 
@@ -70,11 +70,11 @@ The lessons from v2.2's bench tests and flight carried into later revisions; the
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/images/pcb-3d-top.jpg" alt="IGNIS v2 3D render, top side"><br><sub><b>Top side</b> — 3D render from Altium Designer</sub></td>
-    <td width="50%"><img src="docs/images/pcb-bottom-assembled.jpg" alt="IGNIS v2 assembled board, bottom side"><br><sub><b>Bottom side</b> — assembled: pyro drivers, regulators and microSD</sub></td>
+    <td width="50%"><img src="docs/images/pcb-3d-top.jpg" alt="IGNIS v2 3D render, top side"><br><sub>Top side: 3D render from Altium Designer</sub></td>
+    <td width="50%"><img src="docs/images/pcb-bottom-assembled.jpg" alt="IGNIS v2 assembled board, bottom side"><br><sub>Bottom side: assembled: pyro drivers, regulators and microSD</sub></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="docs/images/ignis-v2-assembled.jpg" alt="IGNIS v2 assembled with GPS, IMU and pyro terminals wired"><br><sub><b>Assembled</b> — GPS breakout, IMU and pyro terminal block with leads connected</sub></td>
+    <td colspan="2"><img src="docs/images/ignis-v2-assembled.jpg" alt="IGNIS v2 assembled with GPS, IMU and pyro terminals wired"><br><sub>Assembled: GPS breakout, IMU and pyro terminal block with leads connected</sub></td>
   </tr>
 </table>
 
